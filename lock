@@ -3,14 +3,14 @@ local settings = {
         DotEnabled = true, 
         Prediction = 0.11621,
         Part = "LowerTorso",
-        Key = "c",
-        Notifications = false,
+        Key = "q",
+        Notifications = true,
         AirshotFunc = false
     },
     Dot = {
-        Show = false,
-        Color = Color3.fromRGB(128, 0, 128),
-        Size = Vector3.new(0.9, 1.2, 0.9)
+        Show = true,
+        Color = Color3.fromRGB(194, 192, 192),
+        Size = Vector3.new(1.0, 1.0, 1.0)
     }
 }
 
@@ -117,4 +117,3 @@ if settings.main.AirshotFunc == true then
         end)
     end
 end
-
