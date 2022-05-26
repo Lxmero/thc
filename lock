@@ -45,8 +45,8 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if settings.main.Notifications == true then
                 Plr = FindClosestUser()
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Private Script",
-                    Text = "No longer locked on"
+                    Title = "thcware",
+                    Text = "unlocked"
                 })
             end
         else
@@ -54,8 +54,8 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             settings.main.DotEnabled = true
             if settings.main.Notifications == true then
                 game.StarterGui:SetCore("SendNotification", {
-                    Title = "Private Script",
-                    Text = "Locked on to:" .. tostring(Plr.Character.Humanoid.DisplayName)
+                    Title = "thcware",
+                    Text = "locked on:" .. tostring(Plr.Character.Humanoid.DisplayName)
                 })
             end
         end
