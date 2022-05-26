@@ -3,7 +3,7 @@ local settings = {
         DotEnabled = true, 
         Prediction = 0.11621,
         Part = "LowerTorso",
-        Key = "q",
+        Key = "c",
         Notifications = true,
         AirshotFunc = false
     },
